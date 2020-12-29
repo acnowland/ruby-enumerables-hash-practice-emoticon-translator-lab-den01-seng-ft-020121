@@ -20,6 +20,7 @@ def get_japanese_emoticon(filename, emoticon)
       return emoticon_hash[key][:japanese]
     end
   end
+  return "Sorry, that emoitcon was not found"
 end
 
 def get_english_meaning(filename, emoticon)
